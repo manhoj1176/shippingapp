@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#8B0000">
+<link rel="manifest" href="manifest.json">
+<title>Shipping Slips</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+padding:10px;
+background:#f2f2f2;
+margin:0;
+}
+
+.input-form,.slip{
+background:#fff;
+padding:10px;
+margin-bottom:10px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+input,select,button{
+width:100%;
+margin:5px 0;
+padding:12px;
+font-size:16px;
+border-radius:8px;
+box-sizing:border-box;
+}
+
+button{
+border:none;
+font-weight:bold;
+}
+
+.generate-btn,.print-btn{
+background:darkred;
+color:#fff;
+}
+
+.add-btn{
+background:blue;
+color:#fff;
+}
+
+.save-btn{
+background:green;
+color:#fff;
+}
+
+.delete-btn{
+background:red;
+color:#fff;
+}
+
+.slip{
+border:2px solid #000;
+}
+
+@media print{
+button,.input-form{
+display:none;
+}
+body{
+background:#fff;
+}
+}
+</html>

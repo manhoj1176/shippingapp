@@ -1,0 +1,8 @@
+{
+"name":"Shipping Slips",
+"short_name":"Shipping",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#ffffff",
+"theme_color":"#8B0000"
+}
